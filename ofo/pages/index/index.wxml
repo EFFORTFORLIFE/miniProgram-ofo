@@ -1,0 +1,3 @@
+<view class="container">
+  <map id='indexMap' class="indexMap" show-location longitude='{{longitude}}' latitude='{{latitude}}' controls='{{controls}}' bindcontroltap='bindcontroltap' markers='{{markers}}'></map>
+</view>

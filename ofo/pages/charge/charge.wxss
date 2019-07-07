@@ -1,0 +1,21 @@
+.container{
+  text-align: center;
+  padding:0 40rpx;
+}
+.chargeTitle{
+  font-size:40rpx;
+  padding:20rpx 0;
+}
+.chargeBtn{
+  position:absolute;
+  bottom:30rpx;
+  width:670rpx;
+  left:50%;
+  background:gold;
+  transform: translateX(-50%);
+}
+.numInput{
+  border:#3c3c3c 1px solid;
+  height: 80rpx;
+  border-radius: 10rpx;
+}

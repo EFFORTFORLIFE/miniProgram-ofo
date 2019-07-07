@@ -1,0 +1,40 @@
+@import "test.wxss";
+
+.container{
+  background:#f3f3f3;
+}
+.rest{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding:20rpx 0;
+  background-color: #fff;
+}
+.rest-header{
+  font-size:40rpx;
+}
+.rest-amount{
+  font-size:60rpx;
+  font-weight: bold;
+}
+.rest-desc{
+  color:#999;
+}
+.chargeBtn{
+  background:#b9dd08;
+  border:none;
+  margin-top:10rpx;
+}
+.ticket,.deposit,.about{
+  background:white;
+  height:80rpx;
+  line-height:80rpx;
+  display:flex;
+  justify-content: space-between;
+  margin-top:10rpx;
+  padding:0 10rpx;
+  font-size:35rpx;
+}
+.ticket{
+  margin-top:30rpx;
+}

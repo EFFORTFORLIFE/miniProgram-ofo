@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "充值",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#3f3f3f",
+  "enablePullDownRefresh": true
+}

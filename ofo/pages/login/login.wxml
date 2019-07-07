@@ -1,0 +1,13 @@
+<view class="loginContainer">
+  <view class="user">
+    <image src="{{userHead}}" wx:if="{{logined}}"></image>
+    <image src="/images/avatar.png" wx:if="{{!logined}}"></image>
+    <view wx:if="{{logined}}">{{userName}}</view>
+    <view wx:if="{{!logined}}">{{userName}}</view>
+  </view>
+  <view class="title" wx:if="{{logined}}"></view>
+  <view wx:if="{{logined}}" class="money" bindtap="toMoney">
+    <text>我的钱包</text><text>></text>
+  </view>
+  <button bindtap="login">{{loginBtnText}}</button>
+</view>

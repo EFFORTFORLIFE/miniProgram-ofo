@@ -1,0 +1,5 @@
+<view class="container">
+    <view class="chargeTitle">请输入充值金额</view>
+    <input bindinput="bindInput" class="numInput"/>
+    <button bindtap="charge" class="chargeBtn">充值</button>
+</view>

@@ -1,0 +1,21 @@
+<view class="warnContainer">
+<form bindsubmit='submit'>
+  <view class="title">请选择故障类型</view>
+  <checkbox-group class="checkboxes">
+    <view wx:for="{{checkboxes}}" wx:key="{{index}}" class="checkboxItem">
+      <checkbox checked='{{item.checked}}'></checkbox>{{item.value}}
+    </view>
+  </checkbox-group>
+  <view class="title">拍摄单车周围环境，便于维修师傅找车</view>
+  <view class="images">
+    <image wx:for="{{imgsUrl}}" wx:key="{{index}}" src="{{item}}"></image>
+    <view bindtap="takeCamera" class="camera">+</view>
+  </view>
+  <view class="title">单车状态属性</view>
+  <view class="detail">
+    <input placeholder='车牌号' value="{{carNumber}}" bindinput='getCarNumber'></input>
+    <input placeholder='备注' value="{{attach}}" bindinput='getAttach'></input>
+  </view>
+  <button form-type="submit" class="submitBtn">提交</button>
+</form>
+</view>

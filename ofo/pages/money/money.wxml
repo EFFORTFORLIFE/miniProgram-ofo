@@ -1,0 +1,26 @@
+<view class="container">
+    <view class="rest">
+        <view>
+            <text class="rest-header">我的余额（元）</text>
+        </view>
+        <view>
+            <text class="rest-amount">{{overage}}</text>
+        </view>
+        <view>
+            <text bindtap="restDesc" class="rest-desc">余额说明</text>
+        </view>
+        <button bindtap="movetoCharge" class="chargeBtn" hover-class='hoverclass'>充值</button>   
+    </view>
+    <view bindtap="showTicket" class="ticket">
+        <text>我的用车券</text>
+        <text decode><text class="ticketNum">{{ticket}}张</text>&nbsp;&nbsp;></text>
+    </view>
+    <view bindtap="deposit" class="deposit">
+        <text>我的押金</text>
+        <text><text class="depositNum" selectable>299元，押金退款</text></text>
+    </view>
+    <view bindtap="about" class="about">
+        <text>关于ofo</text>
+        <text>></text>
+    </view>
+</view>

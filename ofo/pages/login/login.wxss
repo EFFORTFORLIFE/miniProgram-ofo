@@ -1,0 +1,36 @@
+.title{
+  height: 10rpx;
+}
+.loginContainer{
+  position:relative;
+  height: 100vh;
+}
+.user image{
+  display:block;
+  width:200rpx;
+  height:200rpx;
+  border-radius:100rpx;
+  margin:0 auto;
+  margin-top:20rpx;
+}
+.user view{
+  text-align: center;
+  font-size:40rpx;
+  margin:20rpx 0;
+}
+button{
+  position:absolute;
+  bottom:40rpx;
+  width:670rpx;
+  left:50%;
+  background:gold;
+  transform: translateX(-50%);
+}
+.money{
+  height:80rpx;
+  line-height:80rpx;
+  padding:0 20rpx;
+  display:flex;
+  justify-content: space-between;
+  font-size:35rpx;
+}
